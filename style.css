@@ -1,0 +1,80 @@
+h1{
+    color:darkblue;
+    border:solid;
+    border-width: 2px;
+}
+h2{
+    color:red;
+}
+h3{
+    color: purple;
+    padding-left: 130px;
+}
+.header{
+    background-color: pink;
+}
+body{
+
+background-color: rgb(145, 175, 221)
+
+}
+
+
+.row1{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: skyblue;
+    height: 15cm;
+}
+
+.row2{
+    background-color:pink;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.box{
+    border:double;
+    border-color: floralwhite;
+    width:10cm;
+    height:12cm;
+    display:flex;
+    flex-direction:  column;
+    
+}
+
+.title{
+border: double;
+border-color:darkcyan;
+width:10cm;
+
+    display: flex;
+justify-content: center;
+
+}
+img{
+    padding-left: 150px;
+    padding-top: 30px;
+}
+a:link{
+color:darkgray;
+}
+
+a:visited{
+    color: yellow;
+}
+
+.box a{
+    opacity: 0.5;
+}
+
+.box:hover a{
+    opacity: 1;
+}
+.box img{
+opacity: 1;
+
+}
+.box:hover img{
+    opacity : 0.5;
+}
